@@ -6,3 +6,7 @@ This client can be used to create a game using Unreal Engine to communicate with
 - This solution contains the C++ library named AzerothLib.  
 - A Python extension to create a binding between Python and C++.
 - And a client gui application written in Python using PySide6. This app can be used for ingame-testing and botting.
+
+## Porting from C#
+The library was originally wriiten in C# and will be ported here to C++.
+See: https://github.com/Artanidos/WotlkBot

@@ -1,7 +1,0 @@
-setup.py
-azerothlib.egg-info/PKG-INFO
-azerothlib.egg-info/SOURCES.txt
-azerothlib.egg-info/dependency_links.txt
-azerothlib.egg-info/not-zip-safe
-azerothlib.egg-info/requires.txt
-azerothlib.egg-info/top_level.txt

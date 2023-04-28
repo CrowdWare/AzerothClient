@@ -1,0 +1,7 @@
+<RCC>
+    <qresource>
+        <file>images/edit_hover.png</file>
+        <file>images/edit_normal.png</file>
+        <file>images/icon_128.png</file>
+    </qresource>
+</RCC>

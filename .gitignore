@@ -1,0 +1,4 @@
+/build
+/client/__pycache__
+/client/widgets/__pycache__
+/dist

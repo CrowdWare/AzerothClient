@@ -18,6 +18,7 @@
 #
 #############################################################################
 import azerothlib
+import asyncio
 from enum import Enum
 from widgets.flatbutton import FlatButton
 from PySide6.QtWidgets import QPushButton, QHBoxLayout, QVBoxLayout, QMainWindow, QWidget, QCheckBox, QDockWidget, QComboBox, QTabWidget, QLineEdit, QLabel, QListWidget, QListWidgetItem
@@ -118,15 +119,19 @@ class MainWindow(QMainWindow):
         dl = QVBoxLayout()
         dl.addWidget(QLabel("Accountname"))
         self.accountname = QLineEdit()
+        self.accountname.setMaximumWidth(200)
         dl.addWidget(self.accountname)
         dl.addWidget(QLabel("Password"))
         self.password = QLineEdit()
+        self.password.setMaximumWidth(200)
         self.password.setEchoMode(QLineEdit.EchoMode.Password)
         dl.addWidget(self.password)
         dl.addWidget(QLabel("Charname"))
         self.charname = QLineEdit()
+        self.charname.setMaximumWidth(200)
         dl.addWidget(self.charname)
         self.classname = QComboBox()
+        self.classname.setMaximumWidth(200)
         classnames = [cls.name for cls in Cls]
         self.classname.addItems(classnames)
         dl.addWidget(self.classname)

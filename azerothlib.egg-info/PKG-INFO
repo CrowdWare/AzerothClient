@@ -1,8 +1,0 @@
-Metadata-Version: 2.1
-Name: azerothlib
-Version: 0.0.1
-Summary: A Python binding for AzerothLib
-Author: Olaf Japp
-Author-email: artanidos@gmail.com
-Requires-Python: >=3.7
-Provides-Extra: test

@@ -27,6 +27,9 @@ from PySide6.QtGui import QUndoStack, QScreen
 from PySide6.QtWebEngineWidgets import QWebEngineView
 import resources
 
+# just testing the lib
+print(azerothlib.add(3,4))
+print(azerothlib.sub(5,1))
 
 class Cls(Enum):
         Warrior = 1,

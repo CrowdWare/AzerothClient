@@ -19,6 +19,7 @@
 ###########################################################################*/
 #include <pybind11/pybind11.h>
 #include "../lib/mymath.h"
+#include "../lib/calculator.h"
 
 #define STRINGIFY(x) #x
 #define MACRO_STRINGIFY(x) STRINGIFY(x)
@@ -53,5 +54,11 @@ PYBIND11_MODULE(azerothlib, m)
         Some other explanation about the sub function.
     )pbdoc");
 
-    m.attr("__version__") = "0.0.2";
+    m.attr("__version__") = "0.0.3";
+
+
+    py::class_<Calculator>(m, "Calculator")
+        .def(py::init<>())
+        .def("add", &Calculator::add)
+        .def("sub", &Calculator::sub);
 }

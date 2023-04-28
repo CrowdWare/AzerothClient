@@ -127,8 +127,8 @@ class CMakeBuild(build_ext):
 # logic and declaration, and simpler if you include description/version in a file.
 setup(
     name="azerothlib",
-    version="0.0.2",
-    author="Olaf Japp",
+    version="0.0.3",
+    author="Artanidos",
     author_email="artanidos@gmail.com",
     description="A Python binding for AzerothLib",
     long_description="",

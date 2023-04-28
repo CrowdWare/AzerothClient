@@ -31,17 +31,21 @@ import resources
 print(azerothlib.add(3,4))
 print(azerothlib.sub(5,1))
 
+calculator_instance = azerothlib.Calculator()
+print(calculator_instance.add(2, 3))
+
+
 class Cls(Enum):
-        Warrior = 1,
-        Paladin = 2,
-        Hunter = 3,
-        Rogue = 4,
-        Priest = 5,
-        DeathKnight = 6,
-        Shaman = 7,
-        Mage = 8,
-        Warlock = 9,
-        Druid = 11
+    Warrior = 1,
+    Paladin = 2,
+    Hunter = 3,
+    Rogue = 4,
+    Priest = 5,
+    DeathKnight = 6,
+    Shaman = 7,
+    Mage = 8,
+    Warlock = 9,
+    Druid = 11
 
 
 class MainWindow(QMainWindow):

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.4...3.18)
 project(azerothlib)
 
-add_library(mymath STATIC lib/mymath.cpp)
+add_library(mymath STATIC lib/mymath.cpp lib/calculator.cpp)
 set_target_properties(mymath PROPERTIES POSITION_INDEPENDENT_CODE ON)
 
 add_subdirectory(pybind11)

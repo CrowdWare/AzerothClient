@@ -29,16 +29,16 @@ namespace py = pybind11;
 PYBIND11_MODULE(azerothlib, m) 
 {
     m.doc() = R"pbdoc(
-        Pybind11 example plugin
-        -----------------------
+        Pybind11 binding for AzerothCore
+        --------------------------------
 
-        .. currentmodule:: cmake_example
+        .. currentmodule:: azerothcore
 
         .. autosummary::
            :toctree: _generate
 
            add
-           subtract
+           sub
     )pbdoc";
 
     m.def("add", &add, R"pbdoc(

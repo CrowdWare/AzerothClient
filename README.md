@@ -1,4 +1,5 @@
 # AzerothClient
+![](https://raw.githubusercontent.com/CrowdWare/AzerothClient/master/gui.png) 
 AzerothClient is a project to create a library written C++ to have a conversation with AzerothCore (World of Warcraft MMORPG server emulation).  
 This client can be used to create a game using Unreal Engine to communicate with AzerothCore, so that you have a game similar to Wrath of the Lichking, but with much better graphics and different content.
 
